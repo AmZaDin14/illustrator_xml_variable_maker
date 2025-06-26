@@ -96,3 +96,6 @@ class CsvToXmlUI(tk.Tk):
 def launch_gui():
     app = CsvToXmlUI()
     app.mainloop()
+
+if __name__ == "__main__":
+    launch_gui()
