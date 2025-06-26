@@ -28,7 +28,7 @@ jobs:
 
       - name: Build EXE with PyInstaller
         run: |
-          pyinstaller --onefile --noconsole ui/app.py --name illustrator_xml_gui
+          pyinstaller --onefile --noconsole src/illustrator_xml/ui/app.py --name illustrator_xml_gui
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
