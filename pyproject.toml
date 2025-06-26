@@ -1,7 +1,7 @@
 [project]
 name = "illustrator-xml-variable-maker"
 version = "0.1.0"
-description = "Add your description here"
+description = "Tool to generate Illustrator-compatible XML variable files from spreadsheets"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
@@ -9,7 +9,7 @@ dependencies = [
 ]
 
 [build-system]
-requires = ["setuptools", "wheel"]
+requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools]

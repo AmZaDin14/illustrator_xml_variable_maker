@@ -1,7 +1,7 @@
 import os
 import tkinter as tk
 from tkinter import filedialog, messagebox
-from core.converter import csv_to_xml
+from illustrator_xml.core.converter import csv_to_xml
 
 class CsvToXmlUI(tk.Tk):
     def __init__(self):
